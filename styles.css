@@ -64,7 +64,7 @@
     display: flex;
     flex-direction: row;
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 800px){
     .container{
     flex-direction: column;
     }
@@ -91,6 +91,8 @@
     padding: 20px;
     border-radius: 20px;
     background-color: rgb(151, 244, 191);
+    align-items: start;
+    justify-content: start;
 }
 .right{
     padding: 50px;
@@ -147,21 +149,21 @@
 }
 .bar .prog.html span{
     height: 12px;
-    width: 30%;
+    width: 20%;
     background: green;
     border-radius: 10px;
     position: absolute;
 }
 .bar .prog.css span{
     height: 12px;
-    width: 25%;
+    width: 15%;
     background: green;
     border-radius: 10px;
     position: absolute;
 }
 .bar .prog.java span{
     height: 12px;
-    width: 45%;
+    width: 30%;
     background: green;
     border-radius: 10px;
     position: absolute;
